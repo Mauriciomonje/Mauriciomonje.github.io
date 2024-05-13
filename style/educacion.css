@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/style/img/fondo.webp'); /* Ruta de tu imagen de fondo */
+    background-size: cover; /* Para cubrir todo el área del contenedor */
+    background-position: center; /* Para centrar la imagen */
+    font-family: Arial, sans-serif
+}
+#navbarTogglerDemo02{
+    justify-content: end;
+}
+.row{
+    display: flex;
+    justify-content: center !important;
+}
+.col{
+    display: flex;
+    justify-content: center;
+}
+
+.pad{
+    height: 5rem;
+}

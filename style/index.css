@@ -1,0 +1,46 @@
+body {
+    margin: 0!important;
+    padding: 0!important;
+    background-image: url('/style/img/fondo.webp')!important; /* Ruta de tu imagen de fondo */
+    background-size: cover!important; /* Para cubrir todo el área del contenedor */
+    background-position: center!important; /* Para centrar la imagen */
+    font-family: Arial, sans-serif
+}
+#icono{
+    border-radius: 50% !important;
+    
+}
+#perfil{
+    background-color: transparent;
+    border: none;
+    max-width: 400px !important;
+    max-height: 400px !important;
+    border-radius: 50rem;
+    padding: 1rem;
+}
+li{
+    list-style: none;
+}
+#sobre-mi{
+    align-items: center;
+    align-content: center;
+
+}
+#navbarTogglerDemo02{
+    justify-content: end;
+}
+#logos{
+    max-width:4rem;
+    background-color: transparent;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+#max-col{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+}
+#box-text{
+    max-width: 23rem;
+}
