@@ -6,6 +6,41 @@ body {
     background-position: center!important; /* Para centrar la imagen */
     font-family: Arial, sans-serif
 }
+#logos{
+    max-width:4rem;
+    background-color: transparent;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
 #navbarTogglerDemo02{
     justify-content: end;
+}
+#caja-flexible{
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#icono{
+    border-radius: 90px;
+    max-width: 60px;
+}
+#texto{
+    margin-left:15px;
+    text-align: left;
+    font-weight: 400;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.623);
+}
+#fecha{
+    font-weight: bold;
+}
+#titulo{
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #4e4e4e;
 }

@@ -17,7 +17,13 @@ body {
     display: flex;
     justify-content: center;
 }
-
+#logos{
+    max-width:4rem;
+    background-color: transparent;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
 .pad{
     height: 5rem;
 }
