@@ -1,9 +1,9 @@
 body {
     margin: 0!important;
     padding: 0!important;
-    background-image: url('/style/img/fondo.webp')!important; /* Ruta de tu imagen de fondo */
-    background-size: cover!important; /* Para cubrir todo el área del contenedor */
-    background-position: center!important; /* Para centrar la imagen */
+    background-image: url('/style/img/fondo.webp')!important; 
+    background-size: cover!important; 
+    background-position: center!important;
     font-family: Arial, sans-serif
 }
 #icono{
@@ -38,9 +38,11 @@ li{
 }
 #max-col{
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
+    justify-content: center;
     align-items: center;
+
 }
 #box-text{
-    max-width: 23rem;
+    text-align: start;
+    max-width: 30rem;
 }
