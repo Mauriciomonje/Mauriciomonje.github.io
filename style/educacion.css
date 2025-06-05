@@ -27,3 +27,12 @@ body {
 .pad{
     height: 5rem;
 }
+@media screen and (max-width: 600px) {
+    footer{
+        padding: 0px !important;
+        margin: 0px !important;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+    }
+}
